@@ -1,6 +1,12 @@
 module github.com/Eigen438/inmemstore
 
-go 1.24.2
+go 1.23.5
+
+toolchain go1.24.1
+
+retract (
+	v0.0.1
+)
 
 require (
 	github.com/Eigen438/opgo v0.0.1
